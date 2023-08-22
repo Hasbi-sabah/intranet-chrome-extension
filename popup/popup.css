@@ -104,6 +104,7 @@ button:focus {
 
 .task-status.green.checked {
 	background-color: #45a049;
+	pointer-events: none; 
 }
 
 .task-status.green:hover {
@@ -131,4 +132,5 @@ button:focus {
 
 .task-status.red:hover {
 	background-color: #a04545;
+	pointer-events: none;
 }
